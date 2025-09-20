@@ -97,7 +97,7 @@ else
 };*/
 
 /*Calculer ma somme de toutes les nombre pairs de 
-1 à 100 à l'aide d'une boucle "for".*/
+1 à 100 à l'aide d'une boucle "for".
        
 int somme = 0;
 for (int i = 1; i <= 100; i++)
@@ -108,17 +108,18 @@ for (int i = 1; i <= 100; i++)
     }
 }
 Console.WriteLine($"La somme des nombres pairs de 1 à 100 est : {somme}");
-        
+*/
 
 /*Calculer la factoriel d'un nombre entré au clavier à l'aide d'une boucle "while".
 int factoriel = 1;
-int n = 8; // nombre pour lequel on veut calculer la factorielle
+int n = 2; // nombre pour lequel on veut calculer la factorielle
 int compteur = 1;
 while (compteur <= n)
 {
     factoriel *= compteur;
     compteur++;
 }
+Console.WriteLine($"La factorielle de {n} est : {factoriel}");
 */
 
 /*Demander à l'utililisateur de saisir un nombre entier et afficher la table de 
@@ -132,6 +133,58 @@ for (int i = 1; i <= 10; i++)
 };*/
 
 
+/*Caculer la somme et la moyenne des éléments d'un tableau
+
+int[] tableau = {  };
+int somme = 0;      
+for (int i = 0; i < tableau.Length; i++)
+{
+    somme += tableau[i];
+}
+double moyenne = (double)somme / tableau.Length;
+Console.WriteLine($"La somme des éléments du tableau est : {somme}");
+Console.WriteLine($"La moyenne des éléments du tableau est : {moyenne}");
+*/
+
+/*Trouver les éléments maximum et minimum dans un tableau
+int[] tableau = { 3, 5, 1, 8, 2, -4, 7 };
+int max = tableau[0];
+int min = tableau[0];
+for (int i = 1; i < tableau.Length; i++)
+{
+    if (tableau[i] > max)
+    {
+        max = tableau[i];
+    }
+    if (tableau[i] < min)
+    {
+        min = tableau[i];
+    }
+}
+Console.WriteLine($"L'élément maximum du tableau est : {max}");
+Console.WriteLine($"L'élément minimum du tableau est : {min}");
+*/
 
 
+/*Remplir et afficher une metrice de 10x10 avec les nombre de 1 a 100*/
+int[,] matrice = new int[10, 10];
+int valeur = 1;
+for (int i = 0; i < 10; i++)
+{
+    for (int j = 0; j < 10; j++)
+    {
+        matrice[i, j] = valeur;
+        valeur++;
+    }
+}
+for (int i = 0; i < 10; i++)
+{
+    for (int j = 0; j < 10; j++)
+    {
+        Console.Write(matrice[i, j].ToString("D2") + " ");
+    }
+    Console.WriteLine();
+}       
 
+/**/
+/**/
