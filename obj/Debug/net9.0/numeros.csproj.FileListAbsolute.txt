@@ -12,3 +12,4 @@ C:\Users\carolina\OneDrive\Desktop\ifosup\2 año\poo\numeros\obj\Debug\net9.0\re
 C:\Users\carolina\OneDrive\Desktop\ifosup\2 año\poo\numeros\obj\Debug\net9.0\numeros.pdb
 C:\Users\carolina\OneDrive\Desktop\ifosup\2 año\poo\numeros\obj\Debug\net9.0\numeros.genruntimeconfig.cache
 C:\Users\carolina\OneDrive\Desktop\ifosup\2 año\poo\numeros\obj\Debug\net9.0\ref\numeros.dll
+C:\Users\carolina\OneDrive\Desktop\ifosup\2 año\poo\numeros\obj\Debug\net9.0\numeros.sourcelink.json

@@ -72,8 +72,66 @@ puis effectue l'operation et affiche le resultat.
 (Il est valide si le modulo des 10 premiers chiffres par 97 donne les 2 derniers ou ils
 valent 97 s'il vaut 0.) exemple valide: 539007547034 */
 
-Console.WriteLine("Entrez un numero de compte bancaire (BBAN) :");
+/*Console.WriteLine("Entrez un numero de compte bancaire (BBAN) :");
 string bban = Console.ReadLine();
+if (bban.Length != 12 || !long.TryParse(bban, out _))
+{
+    Console.WriteLine("Erreur : Le BBAN doit contenir exactement 12 chiffres.");
+}
+else
+{
+    long numeroPrincipal = long.Parse(bban.Substring(0, 10));
+    int cle = int.Parse(bban.Substring(10, 2));
+
+    int reste = (int)(numeroPrincipal % 97);
+    int cleCalculee = reste == 0 ? 97 : reste;
+
+    if (cleCalculee == cle)
+    {
+        Console.WriteLine("Le BBAN est valide.");
+    }
+    else
+    {
+        Console.WriteLine("Le BBAN n'est pas valide.");
+    }
+};*/
+
+/*Calculer ma somme de toutes les nombre pairs de 
+1 à 100 à l'aide d'une boucle "for".*/
+       
+int somme = 0;
+for (int i = 1; i <= 100; i++)
+{
+    if (i % 2 == 0)
+    {
+        somme += i;
+    }
+}
+Console.WriteLine($"La somme des nombres pairs de 1 à 100 est : {somme}");
+        
+
+/*Calculer la factoriel d'un nombre entré au clavier à l'aide d'une boucle "while".
+int factoriel = 1;
+int n = 8; // nombre pour lequel on veut calculer la factorielle
+int compteur = 1;
+while (compteur <= n)
+{
+    factoriel *= compteur;
+    compteur++;
+}
+*/
+
+/*Demander à l'utililisateur de saisir un nombre entier et afficher la table de 
+multiplication de ce nombre de 1 à 10*/
+/*Console.WriteLine("Entrez un nombre entier pour afficher sa table de multiplication :");
+int nombre = Convert.ToInt32(Console.ReadLine());   
+for (int i = 1; i <= 10; i++)
+{
+    int resultat = nombre * i;
+    Console.WriteLine($"{nombre} x {i} = {resultat}");
+};*/
+
+
 
 
 
