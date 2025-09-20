@@ -166,7 +166,7 @@ Console.WriteLine($"L'élément minimum du tableau est : {min}");
 */
 
 
-/*Remplir et afficher une metrice de 10x10 avec les nombre de 1 a 100*/
+/*Remplir et afficher une metrice de 10x10 avec les nombre de 1 a 100
 int[,] matrice = new int[10, 10];
 int valeur = 1;
 for (int i = 0; i < 10; i++)
@@ -184,7 +184,15 @@ for (int i = 0; i < 10; i++)
         Console.Write(matrice[i, j].ToString("D2") + " ");
     }
     Console.WriteLine();
-}       
+}     */  
 
-/**/
-/**/
+/* écrivez une fonction nommée "AdditionnerNombrePairs" qui prend un entier positif
+comme argumenter et calculer la somme de tous les nombres pairs de 1 à cet entier. */
+
+
+/*écrivez un fonction nommée "EstPalindrome" qui prend une chaîne de caractères en entrée
+et détermine si elle est un palindrome*/
+
+            
+/*écrivez un foction nommée "ConvertirCelsiusEnFahrenheit" qui pred une température
+en degrés Celsius en entrée et la convertit en degrés Fahrenheit.*/
